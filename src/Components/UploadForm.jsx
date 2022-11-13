@@ -14,7 +14,7 @@ const UploadForm = () => {
       setError("");
     } else {
       setFile(null);
-      setError("Choisir une image (png ou jpg)");
+      setError("Choisir une image au format png ou jpg");
     }
   };
 
