@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { projectStorage } from "../firebase/config";
-
+import { getFirestore } from "firebase/firestore";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 
 const useStorage = (file) => {
